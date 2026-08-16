@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@400;600;700;800&family=JetBrains+Mono:wght@500&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-limed-spruce: #3b494b;
+  --color-mercury: #e3e2e2;
+  --color-oyster-bay: #dbfcff;
+  --color-submarine: #b9cacb;
+  --color-cyan: #00f0ff;
+  --color-electric-violet: #b600f8;
+  --color-hint-of-red: #f9f5f5;
+  --color-woodsmoke: #0d0e0f;
+  --color-shark: #1b1c1c;
+  --color-mauve: #ebb2ff;
+  --color-cape-cod: #343535;
+  --color-pale-sky: #6b7280;
+}
+
+::selection {
+  background: #00f0ff;
+  color: #006970;
+}
+
+body {
+  font-family: "Geist", sans-serif;
+  position: relative;
+  overflow-x: hidden;
+  color: #e3e2e2;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+button:hover > .animateRight {
+    transform: translateX(5px);
+}
+
+.btnBoxShadow {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.btnBoxShadow:hover {
+  box-shadow:
+    0 0 20px rgba(0, 240, 255, 0.2),
+    inset 0 0 10px rgba(0, 240, 255, 0.1);
+  border-color: #00f0ff;
+}
+
+.plusAnimation {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.grid-bg {
+  background-size: 40px 40px;
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  mask-image: radial-gradient(circle at center, black 40%, transparent 80%);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+}
+
+.ambientGlow {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(
+    circle,
+    rgba(0, 240, 255, 0.15) 0%,
+    transparent 70%
+  );
+  filter: blur(60px);
+  z-index: -1;
+  pointer-events: none;
+}
+
+.bgImage {
+  background-image: radial-gradient(
+    circle,
+    rgba(182, 0, 248, 0.1) 0%,
+    transparent 70%
+  );
+}
+
+.glowText {
+  text-shadow:
+    0 0 20px rgba(0, 240, 255, 0.4),
+    0 0 40px rgba(0, 240, 255, 0.2);
+}
+
+.primaryBtn {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.primaryBtn:hover {
+  border-color: #00f0ff;
+  box-shadow:
+    0 0 20px rgba(0, 240, 255, 0.2),
+    inset 0 0 10px rgba(0, 240, 255, 0.1);
+}
+
+.glassPanel {
+  background: rgba(26, 28, 28, 0.4);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: all 0.3s ease;
+}
+
+.glassPanel:hover {
+  border-color: rgba(0, 240, 255, 0.3);
+  box-shadow: 0 10px 30px rgba(0, 240, 255, 0.05);
+}
+
+.skillGlassPanel {
+  background: rgba(10, 10, 10, 0.6);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: all 0.3s ease;
+}
+
+.skillGlassPanel:hover {
+  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 10px 30px rgba(0, 240, 255, 0.1);
+}
+
+.glassCard {
+  background: rgba(26, 28, 28, 0.4);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: all 0.3s ease;
+}
+
+.glassCard:hover {
+  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 10px 40px rgba(0, 240, 255, 0.05);
+}
+
+.progressBarFill {
+  animation: fillProgress 1.5s ease-out forwards;
+}
+
+.neonText {
+  text-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
+}
+
+.formInput:focus {
+  outline: none;
+  border-color: #00f0ff;
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.2);
+}
+
+@keyframes fillProgress {
+  from {
+    width: 0;
+  }
+}
