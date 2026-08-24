@@ -192,30 +192,30 @@ const TECHNICAL_SKILLS = [
 const TESTIMONIALS = [
     {
         id: 1,
-        name: "Elena Rodriguez",
+        name: "Ольга Зайцева",
         message:
-            "The translation from our complex Figma prototypes to pixel-perfect, highly responsive code was flawless. A true bridge between design intent and technical execution.",
+            "«Ты не просто скопировал прототипы, а осмысленно адаптировал их под все экраны. Заметно выше своего грейда по качеству исполнения.»",
         profile:
-            "https://lh3.googleusercontent.com/aida-public/AB6AXuDzcngp-MnR_6bGs_a1YFQ9_XJy0CMe1s6seD-kvnHt27AXLCH3gnhbWy91lKAX_7XzbkzJAlVJdC2pYb1xHf4KP4Gm_aWI2NC_juDczCfH_ytoL8SRA-0_WOULFI4_dbNauQl0V4uMw_8MSVrP487JgKoyMDwK5qiGY9tebuzI4Apu0ifKjYkQ7K_okmX59Yh0ay2zbFhy7kVJWl8sOzCudV25CYxh-BMjcl3EKjEa8WV0K25G2JUdGFidY4Atf7G5A7rndu_aFqxA",
-        subtitle: "Design Director, Prisma",
+            "./img/testimonials/1.png",
+        subtitle: "Руководитель дизайна, продуктовая лаборатория «Сигма»",
     },
     {
         id: 2,
-        name: "Alex Thorne",
+        name: "Алексей Смирнов",
         message:
-            "Working with DEV_CORE was a masterclass in modern architecture. They didn't just build our platform; they engineered a scalable ecosystem that transformed our operational speed.",
+            "«Перенос сложной Figma‑графики в пиксельно точный и отзывчивый код выполнен безупречно. Ты — идеальный мост между дизайном и вёрсткой.»",
         profile:
-            "https://lh3.googleusercontent.com/aida-public/AB6AXuAUPOFAz-thJys9oGW6UpXS2orUOOGSraSDkXXqJMwUWFOzgqzKZDMn_qMG1T2TGzzeq5B7bDTnlVZXl7U9dZAuYcc308GHo5Y0qFXvVr7mgDmY9_D97Pfq9RLRMhivrksZLuB5ELU_jTikFouIGUhjZxLSgkhGtoZyvt4W2pOOEyw2VKQunJY6BBrw990vVWF4-5vn4GOEF9TAbqDxyfjLT0vjUBYa2_Z6Nv_W9Dzcj1VewBycLPXXFPf4Uy65KDWPieqhLVHJraUm",
-        subtitle: "CTO, Nexus Dynamics",
+            "./img/testimonials/1.png",
+        subtitle: "Арт‑директор, студия «Красный Угол»",
     },
     {
         id: 3,
-        name: "Marcus Chen",
+        name: "Дмитрий Колесников",
         message:
-            "We needed a robust backend capable of handling massive data throughput. The Go microservices delivered were exceptionally performant. Highly recommended for heavy-lifting.",
+            "«Адаптация наших сложнейших макетов прошла идеально. Ты точно передал дизайн и технически грамотно реализовал всё без потерь.»",
         profile:
-            "https://lh3.googleusercontent.com/aida-public/AB6AXuC7BAXXUm5GZqedboQgU372L1t7gM5NjkN5v9owwIudiQI0aVCVJ3sySTPMyYy1SY8YmNTjw5T5JvJcgEBkLj18tiC5z6lJGNHCiSzWKo-IXse8FPsJD6VmRp4KGv04q6gUX7eLLtzrbzGKaOcvvfIzJwHGFA_E9Z00jIGXLZNt-8CXV9zj_1oaXFfcrtrKfn_2-VbSqCBXegnFsufGyXtnwS4Okrm90CuDIkzWgMfhHS_UjbrvWcuTI-Q53uT903LDvafo2YAz_-Zh",
-        subtitle: "Founder, Vertex Labs",
+            "./img/testimonials/1.png",
+        subtitle: "Креативный директор, бюро «Четверть»",
     },
 ];
 
