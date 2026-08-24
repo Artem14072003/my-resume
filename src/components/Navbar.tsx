@@ -3,6 +3,12 @@ import {useEffect, useState} from "react";
 
 const Navbar = () => {
     const [activeHash, setActiveHash] = useState(window.location.hash || '#about')
+    const handleMyResume = () => {
+        window.open('https://docs.yandex.ru/docs/view?url=ya-disk%3A%2F%2F%2Fdisk%2FМои%20Яндекс.' +
+            'Картинки%2FРезюмe_Разработчик_JavaScript%2C_Логистика%2C_Команда_разработки_инструментов.' +
+            'pdf&name=Резюмe_Разработчик_JavaScript%2C_Логистика%2C_Команда_разработки_инструментов.' +
+            'pdf&uid=365106555&nosw=1', '_blank', 'noopener,noreferrer');
+    };
 
     useEffect(() => {
         const handleHashChang = () =>
@@ -29,14 +35,14 @@ const Navbar = () => {
                             key={href}
                             href={href}
                             className={`pb-1 text-sm tracking-wider transition-colors duration-300 
-                                ${activeHash === href ? 'text-oyster-bay font-bold border-b-2 border-oyster-bay' : 
+                                ${activeHash === href ? 'text-oyster-bay font-bold border-b-2 border-oyster-bay' :
                                 'text-submarine hover:text-oyster-bay'}`}
                         >
                             {label}
                         </a>
                     ))}
                 </div>
-                <button className={'bg-black text-white transition-transform ' +
+                <button onClick={handleMyResume} className={'bg-black text-white transition-transform ' +
                     'text-sm rounded cursor-pointer hover:scale-95 px-6 py-2 btnBoxShadow'}>Резюме
                 </button>
             </div>

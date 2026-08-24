@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar.tsx";
 import BgImage from "./components/UI/BgImage.tsx";
 import Sidebar from "./components/SideBar.tsx";
 import HeroSection from "./components/HeroSection.tsx";
+import AboutSection from "./components/AboutSection/AboutSection.tsx";
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
             <Sidebar />
             <main className="mx-auto px-8 pb-40 relative max-w-300">
                 <HeroSection />
+                <AboutSection />
             </main>
         </div>
     )

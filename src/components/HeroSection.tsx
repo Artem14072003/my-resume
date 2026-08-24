@@ -4,7 +4,7 @@ import {ArrowRight} from "lucide-react";
 const HeroSection = () => {
     return (
         <motion.div
-            className={"min-h-screen relative pb-40 pt-14"}
+            className={"min-h-screen relative pb-30 pt-14"}
             whileInView={{opacity: 1, y: 0}}
             viewport={{once: true}}
             initial={{opacity: 0, y: 30}}
