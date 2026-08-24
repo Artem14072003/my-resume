@@ -1,16 +1,12 @@
-import {motion} from "framer-motion"
 import {SquareCode} from "lucide-react";
 import BlockArsenal from "./BlockArsenal/BlockArsenal.tsx";
 import BlockSkills from "./BlockSkills/BlockSkills.tsx";
+import MotionSection from "../UI/MotionSection.tsx";
 
 const AboutSection = () => {
     return (
-        <motion.div
+        <MotionSection
             className={"relative py-30"}
-            whileInView={{opacity: 1, y: 0}}
-            viewport={{once: true, amount: 0.2}}
-            initial={{opacity: 0, y: 0}}
-            transition={{duration: 0.8, ease: "easeIn"}}
         >
             <section id={'about'}>
                 <h2 className={'text-[48px] leading-[1.2] tracking-[-0.02em] font-bold mb-16 text-mercury'}>
@@ -63,7 +59,7 @@ const AboutSection = () => {
                 <BlockArsenal/>
                 <BlockSkills/>
             </section>
-        </motion.div>
+        </MotionSection>
     )
         ;
 };
