@@ -68,8 +68,8 @@ const TECH_STACK = [
 
 const SKILLS = [
     {
-        label: "Creative Design",
-        desc: "Merging aesthetic vision with technical constraints to build interfaces that feel alive.",
+        label: "Креативный дизайн",
+        desc: "Сочетание эстетического видения и технических ограничений для создания живых интерфейсов. ",
         icon: LoaderPinwheel,
         colorClasses: {
             text: "text-cyan",
@@ -79,8 +79,8 @@ const SKILLS = [
         },
     },
     {
-        label: "System Architecture",
-        desc: "Designing scalable, maintainable component ecosystems that grow with the product.",
+        label: "Системная архитектура",
+        desc: "Разработка масштабируемых и удобных в обслуживании экосистем компонентов, которые растут вместе с продуктом. ",
         icon: ShieldCog,
         colorClasses: {
             text: "text-electric-violet",
@@ -90,8 +90,8 @@ const SKILLS = [
         },
     },
     {
-        label: "Performance",
-        desc: "Obsessive optimization of render paths and payload sizes for instantaneous interactions.",
+        label: "Представление",
+        desc: "Навязчивая оптимизация путей рендеринга и размеров полезной нагрузки для обеспечения мгновенного взаимодействия.",
         icon: Rocket,
         colorClasses: {
             text: "text-hint-of-red",
@@ -104,23 +104,13 @@ const SKILLS = [
 
 const EXPERIENCE = [
     {
-        title: "Lead Developer",
-        company: "Facebook.",
-        date: "2021 — Present",
-        desc: " Spearheaded the architectural redesign of the core enterprise platform, transitioning from a monolithic structure to microservices. Managed a team of 12 engineers, improving deployment frequency by 40%.",
-        techStack: ["React", "Node.js", "AWS", "Kubernetes"],
-        colorClasses: {
-            text: "text-cyan",
-            hoverBg: "group-hover:bg-cyan",
-            hoverBorder: "group-hover:border-cyan",
-        },
-    },
-    {
-        title: "Lead Developer",
-        company: "Google LLC.",
+        title: "Full-Stack Developer",
+        company: "United Truck Services",
         date: "2023 — 2024",
-        desc: " Spearheaded the architectural redesign of the core enterprise platform, transitioning from a monolithic structure to microservices. Managed a team of 12 engineers, improving deployment frequency by 40%.",
-        techStack: ["React", "Node.js", "AWS", "Kubernetes"],
+        desc: " Возглавил полную переработку сайта UTS, заменив статичный HTML на динамическое приложение с " +
+            "серверной логикой и админ-панелью. Внедрил самостоятельное управление контентом для сотрудников без кода, " +
+            "сократив время обновления данных с дней до минут.",
+        techStack: ["React", "SCSS", "LaravelAPI", "REST API", 'MySQL'],
         color: "cyan",
         colorClasses: {
             text: "text-mauve",
@@ -130,23 +120,26 @@ const EXPERIENCE = [
     },
 ];
 
-const PROJECT_THUMBNAIL =
-    "https://lh3.googleusercontent.com/aida-public/AB6AXuDkyDMXRxRKIf3oBb8Y45D1dYxDx4aFn1hYdTIs7zhsWze6z-edE3PYXS7aPMSept9_WbmgtU7PjGYGnQNqUyCmFtCydHoO9-mn9GwdN1TAiCnyY00kOkfeQZaKe_QkXrFgqKELyx73YwJUuJiapwnveQHOkABsPS2xJhNlJOwl-sJ9zgkiEsaY2CEejNWu7mMZ7lKDo9SlCuhleZ5KSeTEpU0Wycd8pkNcGsvjthNr2EnQNBRZtbL8J2GALf2mOBBNeQjYeGmC2wfD";
+const PROJECT_THUMBNAIL = "./img/projects/0.png";
 
 const PROJECTS = [
     {
         id: "1",
         thumbnail:
-            "https://lh3.googleusercontent.com/aida-public/AB6AXuAEpKSNyvgQLHlIHwus24Lr8K0OEcL2tr-tuJOCplsBrunH7AvAa83OO3J2T4pwHb6K5AqegpMI_5rufH-srw8Vgqkjlovf8vr5oMUsGffUDgBHj7HBFWyyI5z-OmUVuakFPFipTEsOSsJQmmJMsFFg5lVeujSdf_mCNO9GYQSAbGoNPLZirvRXOTD4hsTc5raT0ZDd3Qr1Kno2Z675f9r7Wntl2q0geNeK5RtH4e9RjA1pJXANOG-GRWfk8k68-FegciuhuYcnXppO",
-        title: "Vortex Editor",
-        desc: "A lightweight, browser-based code editor focused on offline capabilities and seamless P2P collaboration using WebRTC.",
+            "./img/projects/1.png",
+        title: "PetSPA",
+        desc: "Профессиональный груминг и релакс для ваших хвостатых друзей — каждый питомец заслуживает королевского ухода.",
+        view: 'https://artem14072003.github.io/PetSPA/',
+        project: 'https://github.com/Artem14072003/PetSPA'
     },
     {
         id: "2",
         thumbnail:
-            "https://lh3.googleusercontent.com/aida-public/AB6AXuDtaM6mKsHRtkyNZFji5IghXSA7cD6ati9ZNlNxEcA9t1G6bDW6CR5nGVkO1e2ekFk7o5e6NK7XwsHoqdF_dh2am3S6KQaza5MQDEfcmKslKwHq9hHSys0188sU4eYuJ4zwRzuGxv-QwpaXPxTwDOW4Fvq1CC3QHCLKOPIz4RfObjRx4j_LOaiLNSQ1uqKjR4YIUdz5EetOYleh2meY5RbqcSOSSWWGtCV-R0zXXUW-C27hvAR2gtrnA8LIAPUXse0Q1gZjze9IAz5f",
-        title: "Aura AI Engine",
-        desc: "A visual node-based interface for constructing and tuning machine learning models without writing boilerplate code.",
+            "./img/projects/2.png",
+        title: "Виселица",
+        desc: "Классическая словесная головоломка: называйте буквы, не дайте человечку оказаться на виселице.",
+        view: 'https://artem14072003.github.io/The-Gallows/dist/index.html',
+        project: 'https://github.com/Artem14072003/The-Gallows'
     },
 ];
 
@@ -157,9 +150,9 @@ const TECHNICAL_SKILLS = [
         icon: Code,
         text: "text-cyan",
         techStack: [
-            {label: "React / Next.js", percentage: "90%", width: "w-[90%]"},
-            {label: "Vue / Nuxt", percentage: "85%", width: "w-[85%]"},
-            {label: "Tailwind CSS", percentage: "95%", width: "w-[95%]"},
+            {label: "React / Next.js", percentage: "80%", width: "w-[80%]"},
+            {label: "Vue / Nuxt", percentage: "65%", width: "w-[65%]"},
+            {label: "Tailwind CSS", percentage: "70%", width: "w-[70%]"},
         ],
     },
     {
@@ -168,9 +161,9 @@ const TECHNICAL_SKILLS = [
         icon: Server,
         text: "text-mauve",
         techStack: [
-            {label: "Node.js", percentage: "88%", width: "w-[88%]"},
-            {label: "Go", percentage: "75%", width: "w-[75%]"},
-            {label: "PostgreSQL", percentage: "80%", width: "w-[80%]"},
+            {label: "Node.js", percentage: "70%", width: "w-[70%]"},
+            {label: "Python", percentage: "60%", width: "w-[60%]"},
+            {label: "PostgreSQL", percentage: "68%", width: "w-[68%]"},
         ],
     },
     {
@@ -179,9 +172,8 @@ const TECHNICAL_SKILLS = [
         icon: Smartphone,
         text: "text-cyan",
         techStack: [
-            {label: "Swift (iOS)", percentage: "82%", width: "w-[82%]"},
-            {label: "Flutter", percentage: "78%", width: "w-[78%]"},
-            {label: "React Native", percentage: "85%", width: "w-[85%]"},
+            {label: "Flutter", percentage: "50%", width: "w-[50%]"},
+            {label: "React Native", percentage: "70%", width: "w-[70%]"},
         ],
     },
     {
@@ -190,9 +182,9 @@ const TECHNICAL_SKILLS = [
         icon: Wrench,
         text: "text-mauve",
         techStack: [
-            {label: "Docker", percentage: "90%", width: "w-[90%]"},
+            {label: "Docker", percentage: "50%", width: "w-[50%]"},
             {label: "Figma", percentage: "85%", width: "w-[85%]"},
-            {label: "Git / CI / CD", percentage: "95%", width: "w-[95%]"},
+            {label: "Git / CI / CD", percentage: "80%", width: "w-[80%]"},
         ],
     },
 ];

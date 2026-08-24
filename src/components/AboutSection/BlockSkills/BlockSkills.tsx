@@ -18,7 +18,7 @@ const BlockSkills = () => {
                             <Icon className={`${colorClasses.text}`}/>
                         </div>
                         <h4
-                            className={'text-[32px] leading-[1.3] tracking-[-0.01em] font-semibold text-mercury mb-2'}
+                            className={'text-[24px] leading-[1.3] tracking-[-0.01em] font-semibold text-mercury mb-2'}
                         >
                             {label}
                         </h4>

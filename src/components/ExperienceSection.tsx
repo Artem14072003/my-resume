@@ -6,11 +6,13 @@ const ExperienceSection = () => {
         <MotionSection className={'max-w-300 mx-auto px-8 mb-40'}>
             <section id={'experience'}>
                 <div className="mb-16">
-                    <h2 className={'text-[48px] leading-[1.2] tracking-[-0.02em] font-bold text-mercury mb-4'}>Experience</h2>
+                    <h2 className={'text-[48px] leading-[1.2] tracking-[-0.02em] font-bold text-mercury mb-4'}>Опыт
+                        работы</h2>
                     <p
                         className={'text-[18px] leading-[1.6] tracking-normal text-submarine max-w-2xl'}
                     >
-                        A history of building scalable solutions and leading engineering teams across diverse tech landscapes
+                        Широкий технологический бэкграунд: проектировал отказоустойчивые системы, руководил инженерными
+                        коллективами, внедрял лучшие практики разработки в разных доменах.
                     </p>
                 </div>
                 <div className="relative ml-4 md:ml-8 pl-8 md:pl-12 space-y-16">
@@ -23,7 +25,8 @@ const ExperienceSection = () => {
                                 group-hover:shadow-[0_0_15px_rgba(0,240,255,0.6)]`}
                             />
                             <div className={'glassCard rounded-xl p-10 relative overflow-hidden'}>
-                                <div className="flex flex-col md:flex-row md:items-start justify-between mb-6 gap-4 relative z-10">
+                                <div
+                                    className="flex flex-col md:flex-row md:items-start justify-between mb-6 gap-4 relative z-10">
                                     <div className={''}>
                                         <h3
                                             className={'text-[32px] leading-[1.3] tracking-[-0.01em] font-semibold ' +
@@ -64,7 +67,6 @@ const ExperienceSection = () => {
                                 </div>
                             </div>
                         </div>
-
                     )}
                 </div>
             </section>

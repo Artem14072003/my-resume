@@ -4,6 +4,8 @@ import Sidebar from "./components/SideBar.tsx";
 import HeroSection from "./components/HeroSection.tsx";
 import AboutSection from "./components/AboutSection/AboutSection.tsx";
 import ExperienceSection from "./components/ExperienceSection.tsx";
+import ProjectSection from "./components/ProjectSection.tsx";
+import SkillSection from "./components/SkillSection.tsx";
 
 function App() {
     return (
@@ -15,6 +17,8 @@ function App() {
                 <HeroSection />
                 <AboutSection />
                 <ExperienceSection />
+                <ProjectSection />
+                <SkillSection />
             </main>
         </div>
     )
