@@ -9,7 +9,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "yard build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d dist "
   },
   "dependencies": {
@@ -17,6 +17,7 @@
     "embla-carousel-autoplay": "^8.6.0",
     "embla-carousel-react": "^8.6.0",
     "framer-motion": "^13.1.0",
+    "gh-pages": "^6.3.0",
     "lucide-react": "^1.27.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
