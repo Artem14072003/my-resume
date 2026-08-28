@@ -4,7 +4,7 @@ import {TECH_STACK} from "../../../constants.ts";
 const BlockArsenal = () => {
     return (
         <div className={'mb-16'}>
-            <h3 className={'text-[32px] leading-[1.3] tracking-[0.03em] font-semibold text-mercury mb-8'}>
+            <h3 className={'text-[28px] md:text-[32px] leading-[1.3] tracking-[0.03em] font-semibold text-mercury mb-8'}>
                 Основной арсенал
             </h3>
             <div className={"grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8"}>

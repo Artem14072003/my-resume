@@ -3,16 +3,16 @@ import {TECHNICAL_SKILLS} from "../constants.ts";
 
 const SkillSection = () => {
     return (
-        <MotionSection className={'max-w-300 mx-auto px-8 mb-40'}>
+        <MotionSection className={'max-w-300 mx-auto px-0 md:px-8 mb-40'}>
             <section>
                 <div className={'mb-16'}>
                     <h2
-                        className={'text-[48px] leading-[1.2] tracking-[-0.02em] font-bold text-mercury mb-4'}
+                        className={'text-[28px] md:[36px] lg:text-[48px] leading-[1.2] tracking-[-0.02em] font-bold text-mercury mb-4'}
                     >
                         Технический арсенал
                     </h2>
                     <p
-                        className={'text-[18px] leading-[1.6] tracking-normal max-w-2xl text-submarine'}
+                        className={'text-base md:text-[18px] leading-[1.6] tracking-normal max-w-2xl text-submarine'}
                     >
                         Тщательно подобранный набор современных технологий, выбранных с учетом производительности,
                         масштабируемости и удобства для разработчиков
@@ -32,7 +32,7 @@ const SkillSection = () => {
                                 className={'flex items-center gap-4 mb-8'}
                             >
                                 <Icon className={`${text} text-3xl shrink-0`}/>
-                                <h3 className={'text-[32px] leading-[1.3] tracking-[-0.01em] font-semibold text-mercury'}>{label}</h3>
+                                <h3 className={'text-[26px] md:text-[32px] leading-[1.3] tracking-[-0.01em] font-semibold text-mercury'}>{label}</h3>
                             </div>
                             <div className={'space-y-6'}>
                                 {techStack.map((skill) => (

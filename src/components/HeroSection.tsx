@@ -18,10 +18,10 @@ const HeroSection = () => {
                         <span className="size-2 rounded-full plusAnimation bg-green-500"/>
                         Доступен для новых проектов
                     </div>
-                    <h1 className="text-[52px] leading-[1.1] tracking-[-0.04em] font-extrabold
+                    <h1 className="text-[38px] md:text-[52px] leading-[1.1] tracking-[-0.04em] font-extrabold
                     text-mercury mb-6 glowText">Кривенко Артём Михайлович</h1>
                     <h2
-                        className={"text-[32px] leading-[1.3] tracking-[-0.01em] font-semibold text-submarine mb-6"}
+                        className={"text-[24px] md:text-[32px] leading-[1.3] tracking-[-0.01em] font-semibold text-submarine mb-6"}
                     >
                         Junior Frontend Engineer
                         <br/>

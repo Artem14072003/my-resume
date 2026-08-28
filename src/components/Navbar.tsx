@@ -26,7 +26,7 @@ const Navbar = () => {
             className={'bg-woodsmoke/80 w-full backdrop-blur-xl ' +
                 'border-limed-spruce/10 shadow-[0_10px_30px_rgba(0, 240, 255, 0.05]'}>
             <div className={'flex justify-between gap-x-3.5 items-center px-8 py-4 mx-auto max-w-300'}>
-                <div className={'text-[24px] md:text-[28px] lg:text-[32px] leading-[1.3] font-bold text-mercury tracking-tighter'}>
+                <div className={'text-[20px] md:text-[28px] lg:text-[32px] leading-[1.3] font-bold text-mercury tracking-tighter'}>
                     KRIVENKO_AM
                 </div>
                 <div className={'hidden md:flex gap-8 items-center'}>

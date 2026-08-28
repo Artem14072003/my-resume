@@ -10,17 +10,17 @@ const ProjectSection = () => {
     }
 
     return (
-        <MotionSection className={"max-w-300 mx-auto px-8 mb-40"}>
+        <MotionSection className={"max-w-300 mx-auto px-0 md:px-8 mb-40"}>
             <section id={'projects'}>
                 <div className="flex flex-col md:flex-row mb-16 md:items-end justify-between gap-6">
                     <div>
                         <h2
-                            className={'text-[34px] shrink leading-[1.2] tracking-[-0.02em] font-bold text-mercury mb-4'}
+                            className={'text-[28px] md:text-[34px] shrink leading-[1.2] tracking-[-0.02em] font-bold text-mercury mb-4'}
                         >
                             Проекты, в которых воплощены лучшие практики
                         </h2>
                         <p
-                            className={'text-[18px] leading-[1.6] tracking-normal text-submarine max-w-2xl'}
+                            className={'text-base md:text-[18px] leading-[1.6] tracking-normal text-submarine max-w-2xl'}
                         >
                             Подборка недавних работ, где производительность, продуманная архитектура UI и следование
                             современным веб-стандартам выходят на первый план.
@@ -70,7 +70,7 @@ const ProjectSection = () => {
                                     </span>
                                 </div>
                                 <h3
-                                    className={'text-[24px] leading-[1.3] tracking-[-0.01em] font-semibold mb-4 ' +
+                                    className={'text-[20px] md:text-[24px] leading-[1.3] tracking-[-0.01em] font-semibold mb-4 ' +
                                         'text-mercury'}
                                 >
                                     Сайт United Truck Services
@@ -86,7 +86,7 @@ const ProjectSection = () => {
                                 </p>
                                 <div className="flex items-center gap-4 mt-auto">
                                     <button
-                                        className={'inline-flex items-center justify-center text-xs px-6 py-2.5 rounded ' +
+                                        className={'inline-flex items-center justify-center text-xs px-3 md:px-6 py-1.5 md:py-2.5 rounded ' +
                                             'text-woodsmoke bg-mercury border border-transparent leading-[1.4] ' +
                                             'tracking-wider font-medium hover:bg-woodsmoke hover:text-oyster-bay ' +
                                             'transition-all hover:border-oyster-bay duration-300 cursor-pointer ' +
@@ -96,7 +96,7 @@ const ProjectSection = () => {
                                     </button>
                                     <button
                                         onClick={() => handleProject(URL_UTS)}
-                                        className={'inline-flex items-center justify-center text-xs px-6 py-2.5 rounded ' +
+                                        className={'inline-flex items-center justify-center text-xs md:px-6 py-1.5 md:py-2.5 rounded ' +
                                             'text-mercury bg-transparent border border-limed-spruce leading-[1.4] ' +
                                             'tracking-wider font-medium hover:text-oyster-bay ' +
                                             'transition-all hover:border-oyster-bay duration-300 cursor-pointer'}
@@ -128,7 +128,7 @@ const ProjectSection = () => {
                                 </div>
                                 <div className={'p-8 grow flex flex-col relative z-10'}>
                                     <h3
-                                        className={'text-[32px] leading-[1.3] tracking-[-0.01em] font-medium ' +
+                                        className={'text-[28px] md:text-[32px] leading-[1.3] tracking-[-0.01em] font-medium ' +
                                             'text-mercury mb-3'}
                                     >
                                         {project.title}

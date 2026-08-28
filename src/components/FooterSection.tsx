@@ -12,6 +12,7 @@ const FooterSection = () => {
                 <div className={'flex gap-6 text-xs leading-[1.4] tracking-widest font-medium'}>
                     {SOCIAL_LINKS.map(({title, link}) => (
                         <a
+                            key={title}
                             href={link}
                             target={'_blank'}
                             className={'text-submarine hover:text-cyan transition-all hover:-translate-y-0.5'}

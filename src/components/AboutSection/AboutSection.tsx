@@ -9,11 +9,11 @@ const AboutSection = () => {
             className={"relative py-30"}
         >
             <section id={'about'}>
-                <h2 className={'text-[48px] leading-[1.2] tracking-[-0.02em] font-bold mb-16 text-mercury'}>
+                <h2 className={'text-[32px] md:text-[48px] leading-[1.2] tracking-[-0.02em] font-bold mb-16 text-mercury'}>
                     Мой путь
                 </h2>
                 <div className={'grid grid-cols-1 lg:grid-cols-2 mb-24 gap-8'}>
-                    <div className={'space-y-6 text-submarine text-[18px] leading-[1.6] tracking-normal'}>
+                    <div className={'space-y-6 text-submarine text-base md:text-[18px] leading-[1.6] tracking-normal'}>
                         <p>
                             Всё началось с обычного текстового редактора — тогда меня заворожила магия превращения
                             логических конструкций в зримые образы. Десять лет спустя я прошёл через множество сте́кей и
