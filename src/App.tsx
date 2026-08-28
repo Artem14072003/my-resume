@@ -6,7 +6,8 @@ import AboutSection from "./components/AboutSection/AboutSection.tsx";
 import ExperienceSection from "./components/ExperienceSection.tsx";
 import ProjectSection from "./components/ProjectSection.tsx";
 import SkillSection from "./components/SkillSection.tsx";
-import TestimonialsSction from "./components/TestimonialsSction.tsx";
+import TestimonialsSection from "./components/TestimonialsSection.tsx";
+import {ContactSection} from "./components/ContactSection.tsx";
 
 function App() {
     return (
@@ -20,7 +21,8 @@ function App() {
                 <ExperienceSection />
                 <ProjectSection />
                 <SkillSection />
-                <TestimonialsSction />
+                <TestimonialsSection />
+                <ContactSection />
             </main>
         </div>
     )

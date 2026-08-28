@@ -4,7 +4,7 @@ import {TESTIMONIALS} from "../constants.ts";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 
-const TestimonialsSction = () => {
+const TestimonialsSection = () => {
 
     const [emblaRef, emblaApi] = useEmblaCarousel({loop: true}, [
         Autoplay({delay: 5000})
@@ -89,4 +89,4 @@ const TestimonialsSction = () => {
     );
 };
 
-export default TestimonialsSction;
+export default TestimonialsSection;

@@ -41,13 +41,14 @@ const HeroSection = () => {
                             <ArrowRight className={'animateRight size-4.5 transition-transform duration-500'}/>
                         </button>
                         <button className="px-8 py-4 rounded text-sm leading-[1.4] tracking-wider font-medium text-mercury
-                        hover:border-limed-spruce/50 hover:bg-shark transition-all cursor-pointer border border-transparent">Написать мне
+                        hover:border-limed-spruce/50 hover:bg-shark transition-all cursor-pointer border border-transparent">Написать
+                            мне
                         </button>
                     </div>
                 </div>
                 <div className="absolute right-0 top-1/5 -translate-y-1/5 w-1/2 h-150 hidden lg:block opacity-60">
                     <div className="w-full h-full border border-cyan/20 rounded-full
-                    animate-[spin_20s_linear_infinite] border-dashed" />
+                    animate-[spin_20s_linear_infinite] border-dashed"/>
                     <div className="absolute inset-8 border border-electric-violet/35 rounded-full
                     animate-[spin_15s_linear_infinite_reverse] border-dashed"></div>
                 </div>
