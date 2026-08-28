@@ -8,22 +8,24 @@ import ProjectSection from "./components/ProjectSection.tsx";
 import SkillSection from "./components/SkillSection.tsx";
 import TestimonialsSection from "./components/TestimonialsSection.tsx";
 import {ContactSection} from "./components/ContactSection.tsx";
+import FooterSection from "./components/FooterSection.tsx";
 
 function App() {
     return (
         <div>
-            <BgImage />
+            <BgImage/>
             <Navbar/>
-            <Sidebar />
+            <Sidebar/>
             <main className="mx-auto px-8 pb-40 relative max-w-300">
-                <HeroSection />
-                <AboutSection />
-                <ExperienceSection />
-                <ProjectSection />
-                <SkillSection />
-                <TestimonialsSection />
-                <ContactSection />
+                <HeroSection/>
+                <AboutSection/>
+                <ExperienceSection/>
+                <ProjectSection/>
+                <SkillSection/>
+                <TestimonialsSection/>
+                <ContactSection/>
             </main>
+            <FooterSection/>
         </div>
     )
 }

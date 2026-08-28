@@ -219,6 +219,21 @@ const TESTIMONIALS = [
     },
 ];
 
+const SOCIAL_LINKS = [
+    {
+        title: 'GitHub',
+        link: 'https://github.com/Artem14072003'
+    },
+    {
+        title: 'Telegram',
+        link: 'https://t.me/Tema10300202'
+    },
+    {
+        title: 'VK',
+        link: 'https://vk.ru/love_my_little_kitten'
+    }
+]
+
 export {
     NAV_LINKS,
     TECH_STACK,
@@ -229,4 +244,5 @@ export {
     PROJECTS,
     TECHNICAL_SKILLS,
     TESTIMONIALS,
+    SOCIAL_LINKS
 };

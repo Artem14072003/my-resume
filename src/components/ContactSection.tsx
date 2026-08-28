@@ -22,7 +22,7 @@ export const ContactSection = () => {
                 <div className={'grid grid-cols-1 lg:grid-cols-2 gap-16'}>
                     <div>
                         <h2
-                            className={'text-[20px] md:text-[36px] lg:text-[42px] tracking-[-0.04em] font-extrabold ' +
+                            className={'text-[20px] lg:text-[42px] tracking-[-0.04em] font-extrabold ' +
                                 'text-mercury mb-6 leading-tight'}
                         >
                             Открыт к партнерству
@@ -47,7 +47,7 @@ export const ContactSection = () => {
                                 </p>
                                 <a
                                     href="mailto:krivenko.artyom@mail.ru"
-                                    className={'text-[32px] leading-[-0.01em] font-semibold text-submarine ' +
+                                    className={'text-[20px] md:text-[32px] leading-[-0.01em] font-semibold text-submarine ' +
                                         'hover:text-cyan transition-colors'}
                                 >
                                     krivenko.artyom@mail.ru
