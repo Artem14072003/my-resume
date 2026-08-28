@@ -2,6 +2,11 @@ import {motion} from "framer-motion";
 import {ArrowRight} from "lucide-react";
 
 const HeroSection = () => {
+
+    const handleProject = (url: string) => {
+        window.open(url, '_blank', 'noopener,noreferrer');
+    }
+
     return (
         <motion.div
             className={"min-h-screen relative pb-30 pt-14"}
@@ -34,16 +39,19 @@ const HeroSection = () => {
                         современные подходы и зрелищный пользовательский интерфейс.</p>
                     <div className="flex flex-wrap gap-6">
                         <button
+                            onClick={() => handleProject('https://github.com/Artem14072003')}
                             className={'bg-black text-white transition-all primaryBtn px-8 py-3.5 rounded text-sm ' +
                                 'leading-[1.4] tracking-wider font-medium flex items-center gap-2 cursor-pointer'}
                         >
                             Посмотреть проекты
                             <ArrowRight className={'animateRight size-4.5 transition-transform duration-500'}/>
                         </button>
-                        <button className="px-8 py-4 rounded text-sm leading-[1.4] tracking-wider font-medium text-mercury
+                        <a
+                            href={'#contact'}
+                            className="px-8 py-4 rounded text-sm leading-[1.4] tracking-wider font-medium text-mercury
                         hover:border-limed-spruce/50 hover:bg-shark transition-all cursor-pointer border border-transparent">Написать
                             мне
-                        </button>
+                        </a>
                     </div>
                 </div>
                 <div className="absolute right-0 top-1/5 -translate-y-1/5 w-1/2 h-150 hidden lg:block opacity-60">
